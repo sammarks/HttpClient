@@ -41,6 +41,7 @@ typedef struct
   //int port = 80;
   int port;
   String body;
+  bool forceIp;
 } http_request_t;
 
 /**
